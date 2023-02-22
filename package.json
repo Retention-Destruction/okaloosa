@@ -1,5 +1,5 @@
 {
-  "homepage": "https://hagan-life.github.io/retention-destruction",
+  "homepage": "https://retention-destruction.github.io/okaloosa",
   "name": "retention-destruction-app",
   "version": "0.1.0",
   "private": true,
@@ -18,6 +18,6 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.3"
   }
 }
