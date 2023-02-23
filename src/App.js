@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import RecordList from './components/recordList'
 import ShowRecord from './components/showRecord'
 import Search from './components/search'
+import logo from './images/ocsd.png'
 
 
 class App extends Component {
@@ -62,6 +63,14 @@ class App extends Component {
   render() {
     return (
       <div className="app-intro">
+        <a href="https://okaloosaschools.com">
+          <header>
+            <div>
+              <img width="100" src={logo} alt="OCSD logo" />
+              <h3>Okaloosa County School District</h3>
+            </div>
+          </header>
+        </a>
 
         <Search handleSearchChange={this.handleSearchChange} />
 

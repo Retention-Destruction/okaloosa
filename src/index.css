@@ -22,13 +22,37 @@ html, body, #root {
   height:100%;
 }
 
+.app-intro > a{
+  text-decoration:none;
+}
+
+header{
+  background-color:#316495;
+  padding:0.5rem 0 2rem;
+}
+
+header > div{
+  display:flex;
+  align-items:center;
+  background-color:#fff;
+}
+
+header > div > img{
+  width:8rem;
+  padding:1rem 2rem;
+}
+
+header > div> h3{
+  background-color:#fff;
+  color:#316495;
+  font-size:2rem;
+  font-weight:300;
+}
 
 .search{
   align-self: flex-end;
   margin: 1em .5em .5em 0;
 }
-
-
 
 .search input{
   padding:.5em 2em .5em 1em;
@@ -241,4 +265,32 @@ footer{
     .input>input:focus{
       background:#eee;
     }
+
+    i.search-icon{
+      display:none;
+    }
+
+    header{
+      background-color:#316495;
+      padding:0.5rem 0 2rem;
+    }
+    
+    header > div{
+      display:flex;
+      align-items:center;
+      background-color:#fff;
+    }
+    
+    header > div > img{
+      width:5rem;
+      padding:0.5rem 1rem;
+    }
+    
+    header > div> h3{
+      background-color:#fff;
+      color:#316495;
+      font-size:1.5rem;
+      font-weight:300;
+    }
+    
 }
