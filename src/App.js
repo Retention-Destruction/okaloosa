@@ -17,7 +17,8 @@ class App extends Component {
       itemNumber: 1,
       scheduleItem: "GS1 191",
       recordCopyAuthorizedToDestroyNote: "Retain until obsolete, superseded, or administrative value is lost.",
-      recordCopyLifeSpan: null,
+      recordCopyLifeSpan: 0,
+      recordCopyLifeSpanType: null,
       description: "This record series consists of outgoing agency mail returned by the post office for any reason, including insufficient postage, incorrect address, forwarding order expired, etc., or abandoned at a mail/document pickup station by a defunct addressee. It does NOT include returned registered or certified mailings. NOTE: In instances when there is a legal need to demonstrate that a mailing was sent to a particular address, agencies are responsible for ensuring that internal management policies are in place for retaining undeliverable/returned mail for as long as legally necessary. See also “MAIL: REGISTERED AND CERTIFIED,” “MAILING/CONTACT LISTS,” and “POSTAGE/SHIPPING RECORDS.”"
     }]
   }

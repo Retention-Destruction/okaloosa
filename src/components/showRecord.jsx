@@ -17,11 +17,7 @@ class ShowRecord extends Component {
           </div>
         </div>
         <div className="content">
-          <h4 className="ui sub header">Record Copy Authorized to Destroy Through
-            <DestroyThrough
-              lifeSpan={record.recordCopyLifeSpan}
-            />
-          </h4>
+          <h4 className="ui sub header">Retention</h4>
           <p>{record.recordCopyAuthorizedToDestroyNote}</p>
         </div>
         <div className="content description">
@@ -29,8 +25,10 @@ class ShowRecord extends Component {
             <p>{record.description}</p>
         </div>
         <div className="extra content">
-          <h4 className="ui sub header">Duplicate Copy Authorized to Destroy Through</h4>
-          <p>Retain Until Obsolete, superseded, or administrative value is lost.</p>
+          <DestroyThrough
+            lifeSpan={record.recordCopyLifeSpan}
+            lifeSpanType={record.recordCopyLifeSpanType}
+          />  
         </div>
       </div>
     )
