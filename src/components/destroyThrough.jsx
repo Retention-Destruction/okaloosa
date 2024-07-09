@@ -24,7 +24,7 @@ class DestroyThrough extends Component {
       } else if(this.props.lifeSpanType === "fiscal"){
         destructionYear = today.getFullYear() - this.props.lifeSpan
         const thisMonth = today.getMonth()
-        if(thisMonth < 7){
+        if(thisMonth < 6){
           destructionYear -= 1
         }
         destructionDate = 30
